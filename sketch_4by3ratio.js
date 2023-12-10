@@ -36,47 +36,8 @@ let button;
 
 function preload() {
   //!!디자이너 vernacular로 바꾸기!
-  //images.push(loadImage("affirmation-01.svg"));
-  // images.push(loadImage("affirmation-02.svg"));
-  // images.push(loadImage("affirmation-03.svg"));
-  // images.push(loadImage("affirmation-04.svg"));
-  // images.push(loadImage("affirmation-05.svg"));
-  // images.push(loadImage("affirmation-06.svg"));
-  // images.push(loadImage("affirmation-07.svg"));
-  // images.push(loadImage("affirmation-08.svg"));
-  // images.push(loadImage("affirmation-09.svg"));
-  // images.push(loadImage("affirmation-10.svg"));
-  // images.push(loadImage("affirmation-11.svg"));
-  // images.push(loadImage("affirmation-12.svg"));
-  // images.push(loadImage("affirmation14.svg"));
-  // images.push(loadImage("affirmation15.svg"));
-  // images.push(loadImage("affirmation16.svg"));
-  
-images.push(loadImage("bubble-01.png"));
-images.push(loadImage("bubble-02.png"));
-images.push(loadImage("bubble-03.png"));
-images.push(loadImage("bubble-04.png"));
-images.push(loadImage("bubble-05.png"));
-images.push(loadImage("bubble-06.png"));
-images.push(loadImage("bubble-07.png"));
-images.push(loadImage("bubble-08.png"));
-images.push(loadImage("bubble-09.png"));
-images.push(loadImage("bubble-10.png"));
-images.push(loadImage("bubble-11.png"));
-images.push(loadImage("bubble-12.png"));
+ images.push(loadImage("WordsOfAffirmation.png"));
 
-images.push(loadImage("bubble-25.png"));
-images.push(loadImage("bubble-26.png"));
-// images.push(loadImage("bubble-27.png"));
-images.push(loadImage("bubble-28.png"));
-images.push(loadImage("bubble-29.png"));
-// images.push(loadImage("bubble-30.png"));
-// images.push(loadImage("bubble-31.png"));
-// images.push(loadImage("bubble-32.png"));
-images.push(loadImage("bubble-33.png"));
-// images.push(loadImage("bubble-34.png"));
-// images.push(loadImage("bubble-35.png"));
-images.push(loadImage("bubble-36.png"));
 
   
   //sound
