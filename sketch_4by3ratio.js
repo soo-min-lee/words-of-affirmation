@@ -134,7 +134,7 @@ function gotResults(results) {
         if (distanceBetweenLips[result] > 5 ) {
           isMouthOpen = true;
 
-          let ballDiameter = random(80, 150); // Adjust the sticker size
+          let ballDiameter = random(80, 170); // Adjust the sticker size
           // Sticker placement
           let newBall = new Ball(
             keypoints[result][13][0],
@@ -198,7 +198,7 @@ if (isMouthOpen == false) {
   text("Open Your Mouth", width / 2, height / 2);
 }
   balls.forEach((ball) => {
-    if (ball.frame <= 100) {
+    if (ball.frame <= 150) {
       ball.collide();
       ball.move();
       ball.display(displayWeight);
@@ -241,7 +241,7 @@ function displayLipDistance() {
     ) {
       //text("Lip Distance: " + distanceBetweenLips[face].toFixed(2), width / 2, 30);
       if (distanceBetweenLips[face] > 5 /*&& clickOnce[face] == false*/) {
-        let ballDiameter = random(100, 700); //!!스티커 사이즈
+        let ballDiameter = random(100, 700); //!!스티커 사이즈 // 사이즈 변형x
         // 스티커 placement
         console.log(keypoints);
         let newBall = new Ball(
