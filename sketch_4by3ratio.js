@@ -52,25 +52,32 @@ function preload() {
   // images.push(loadImage("affirmation15.svg"));
   // images.push(loadImage("affirmation16.svg"));
   
-  images.push(loadImage("1.svg"));
-  images.push(loadImage("2.svg"));
-  images.push(loadImage("3.svg"));
-  // images.push(loadImage("4.svg"));
-  // images.push(loadImage("5.svg"));
-  // images.push(loadImage("6.svg"));
-  
-  images.push(loadImage("BB1.svg"));
-  images.push(loadImage("BB2.svg"));
-  images.push(loadImage("BB3.svg"));
-  images.push(loadImage("BB4.svg"));
-  images.push(loadImage("BB5.svg"));
-  images.push(loadImage("BB6.svg"));
-  images.push(loadImage("BB7.svg"));
-  images.push(loadImage("BB8.svg"));
-  images.push(loadImage("BB9.svg"));
-  images.push(loadImage("BB10.svg"));
-  images.push(loadImage("BB11.svg"));
-  images.push(loadImage("BB12.svg"));
+images.push(loadImage("bubble-01.png"));
+images.push(loadImage("bubble-02.png"));
+images.push(loadImage("bubble-03.png"));
+images.push(loadImage("bubble-04.png"));
+images.push(loadImage("bubble-05.png"));
+images.push(loadImage("bubble-06.png"));
+images.push(loadImage("bubble-07.png"));
+images.push(loadImage("bubble-08.png"));
+images.push(loadImage("bubble-09.png"));
+images.push(loadImage("bubble-10.png"));
+images.push(loadImage("bubble-11.png"));
+images.push(loadImage("bubble-12.png"));
+
+images.push(loadImage("bubble-25.png"));
+images.push(loadImage("bubble-26.png"));
+// images.push(loadImage("bubble-27.png"));
+images.push(loadImage("bubble-28.png"));
+images.push(loadImage("bubble-29.png"));
+// images.push(loadImage("bubble-30.png"));
+// images.push(loadImage("bubble-31.png"));
+// images.push(loadImage("bubble-32.png"));
+images.push(loadImage("bubble-33.png"));
+// images.push(loadImage("bubble-34.png"));
+// images.push(loadImage("bubble-35.png"));
+images.push(loadImage("bubble-36.png"));
+
   
   //sound
   soundFormats("mp3", "ogg");
